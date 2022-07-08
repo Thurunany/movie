@@ -13,14 +13,12 @@ And in case You just happen to stumble throught here, feel free to see what I've
 ## Project Description
 This project is a web popular movies catalogue. In here You can move trought most popular movies in the day, search for any specific favorite and see the information about them! 
 
-For this project I used the <a href="https://www.themoviedb.org/"> The Movie Database API </a> to get all information I needed, integrated with technology of Vue.JS CLI and used the CSS's framework Vuetify and Boostrap.
+For this project I used the <a href="https://www.themoviedb.org/"> The Movie Database API </a> to get all information I needed, integrated with technology of Vue.JS CLI, used the CSS's framework Vuetify and Boostrap and applied all of the steps made with Git on Github.
 
 
 
 ## Project setup
-```
-
-## Project setup
+First step, install yarn in your machine!
 ```
 yarn install
 ```
