@@ -12,9 +12,9 @@
                 </v-hover>
             </v-col>  
             <v-col cols="12" sm="8">
-                <h1 class="grey--text text-darken-3 mt-5">{{this.movie.title}}</h1>
+                  <h1 class="display-3 fst-italic">{{this.movie.title}}</h1>
                 <v-row>
-
+                  
                     <v-col cols="12" sm="2">
                         <v-rating :value="movie.vote_average / 2" color="amber" dense half-increments readonly size="14" > </v-rating>
                     </v-col>
@@ -33,24 +33,25 @@
                                 </span> 
                         </div>
                     </v-col>
-
+               <hr>
                 </v-row>
 
-                <p class="mt-5 grey--text text--darken-3 subheader">{{this.movie.overview}}</p>
+                <p class="lead my-3">{{this.movie.overview}}</p>
+                <hr>
                 <div class="mt-5">
-                    <h2 class="mt-5 grey--text text--darken-3">Featured Cast</h2>
+                    <h2 class="blog-post-title mb-1">Featured Cast:</h2>
                     <div :key="index" v-for="(crew, index) in movie.credits.crew" class="mt-5">
                         <div v-if="index < 2" class="">
                             <h3>{{crew.name}}</h3>
-                            <span class="grey--text">{{crew.job}}</span>
+                            <span class="lead my-3">{{crew.job}}</span>
                         </div>
                     </div>
                 </div>
                     
             </v-col>
         </v-row>
-    </v-container>
-</div>
+    </v-container>      
+  </div>
 </template>
 
 <script>
