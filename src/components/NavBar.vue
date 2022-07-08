@@ -3,7 +3,7 @@
 <div id="app">
 <nav class="navbar navbar-dark bg-dark shadow-sm">
   <div class="container">
-    <a class="navbar-brand text-light fs-1 fw-bold">Movie App</a>
+    <a href="/" class="navbar-brand text-light fs-1 fw-bold">Movie App</a>
     <v-form class="d-flex" role="search" >
       <v-autocomplete class="form-control me-2" type="search" placeholder="Search" aria-label="Search" :itens="movies" item-text="title" item-value="id" id="search">
         <template v-slot:item="{item}">
