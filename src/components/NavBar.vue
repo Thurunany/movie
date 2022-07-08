@@ -1,11 +1,11 @@
 <template>
 
 <div id="app">
-<nav class="navbar navbar-dark bg-dark shadow-sm">
+<nav class="navbar navbar-dark shadow-sm">
   <div class="container">
-    <a href="/" class="navbar-brand text-light fs-1 fw-bold">Movie App</a>
+    <a href="/" class="navbar-brand text-dark fs-1 fw-bold">Movie App</a>
     <v-form class="d-flex" role="search" >
-      <v-autocomplete class="form-control me-2" type="search" placeholder="Search" aria-label="Search" :itens="movies" item-text="title" item-value="id" id="search">
+      <v-autocomplete clearable hide-no-data hide-selected label="Search" flat :items="movies" item-text="title" item-value="id" id="Search">
         <template v-slot:item="{item}">
               <v-btn text :to="`/movie/${item.id}`">{{item.title}}</v-btn>
         </template>
