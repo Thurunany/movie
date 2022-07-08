@@ -10,7 +10,9 @@
 </template>
 
 <script>
-
+export default{
+  name: 'rodape_app'
+};
 </script>
 
 <style></style>
