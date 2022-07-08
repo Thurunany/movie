@@ -15,10 +15,55 @@ This project is a web popular movies catalogue. In here You can move trought mos
 
 For this project I used the <a href="https://www.themoviedb.org/"> The Movie Database API </a> to get all information I needed, integrated with technology of Vue.JS CLI, used the CSS's framework Vuetify and Boostrap and applied all of the steps made with Git on Github.
 
+See the completed project here: http://movieapp-thuany.surge.sh/
 
 
 ## Project setup
-First step, install yarn in your machine!
+### First step to have this code on your local system:
+
+- Ensure [Node.js  >=5.10](https://nodejs.org/en/download/), [NPM](https://docs.npmjs.com) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) are installed on your system
+
+1. Install this code on your local system
+    
+    1. Fork this repository (click 'Fork' button in top right corner)
+    2. Clone the forked repository on your local file system
+    
+        ```
+        cd /path/to/install/location
+        
+        git clone https://github.com/[your_username]/movie.git
+        ```  
+   
+2. Change into directory
+
+    ```
+    cd movie
+    ```
+    
+3. Install dependencies
+
+    ```
+    npm install
+    ```
+
+4. Create a `.env` file by copying the sample
+
+    ```
+    cp .env_sample .env
+    ```
+    
+    Edit the .env file and replace any variables if needed
+    
+5. Start project
+
+    ```
+    npm run start
+    ```
+
+Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
+
+-------------
+
 ```
 yarn install
 ```
