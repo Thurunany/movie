@@ -61,5 +61,3 @@ See the completed project here: http://movieapp-thuany.surge.sh/
     ```
 
 Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
-
--------------
