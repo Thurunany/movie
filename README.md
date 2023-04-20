@@ -5,10 +5,7 @@
 ## Overview
 Hi! Welcome to my project, this is actually a web developer challenge that I'm doing for a job aplication!
 
-In that case, if You're the person that evaluate this aplication I hope You find everything that was asked of me 
-and with any questions please send an email.
-
-And in case You just happen to stumble throught here, feel free to see what I've had the pleasure of building 🤗
+In case You just happen to stumble throught here, feel free to see what I've had the pleasure of building 🤗
 
 ## Project Description
 This project is a web popular movies catalogue. In here You can move trought most popular movies in the day, search for any specific favorite and see the information about them! 
